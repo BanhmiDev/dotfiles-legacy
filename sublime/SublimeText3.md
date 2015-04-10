@@ -1,11 +1,5 @@
 ##Sublime Text 3
 ### Packages
-**Package Control**         
-*Ease the process of installing packages*
-
-**Git**         
-*Git integrated in Subl3*
-
 **All Autocomplete**                 
 *Autocomplete including all opened files*
 
@@ -17,6 +11,3 @@
 
 **DocBlockr**            
 *Quick comment layouts*
-
-**Emmet**              
-*Shortcuts for web development*

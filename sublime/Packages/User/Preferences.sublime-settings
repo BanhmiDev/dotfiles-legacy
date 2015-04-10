@@ -1,0 +1,17 @@
+{
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Spacegray.sublime-theme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"translate_tabs_to_spaces": true
+}
