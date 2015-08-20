@@ -1,15 +1,18 @@
-[submodule ".vim/bundle/vim-pathogen"]
-    path = .vim/bundle/vim-pathogen
+[submodule "vim/.vim/bundle/vim-pathogen"]
+    path = vim/.vim/bundle/vim-pathogen
     url = https://github.com/tpope/vim-pathogen.git
-[submodule ".vim/bundle/wandbox-vim"]
-    path = .vim/bundle/wandbox-vim
+[submodule "vim/.vim/bundle/wandbox-vim"]
+    path = vim/.vim/bundle/wandbox-vim
     url = https://github.com/rhysd/wandbox-vim.git
-[submodule ".tmux/tmux-powerline"]
-    path = .tmux/tmux-powerline
+[submodule "tmux/.tmux/tmux-powerline"]
+    path = tmux/.tmux/tmux-powerline
     url = https://github.com/erikw/tmux-powerline.git
-[submodule ".vim/bundle/alignta"]
-    path = .vim/bundle/alignta
+[submodule "vim/.vim/bundle/alignta"]
+    path = vim/.vim/bundle/alignta
     url = https://github.com/h1mesuke/vim-alignta.git
-[submodule ".vim/bundle/flake8-vim"]
-    path = .vim/bundle/flake8-vim
+[submodule "vim/.vim/bundle/flake8-vim"]
+    path = vim/.vim/bundle/flake8-vim
     url = https://github.com/andviro/flake8-vim.git
+[submodule "emacs/.emacs.d"]
+    path = emacs/.emacs.d
+    url = https://github.com/gimu/.emacs.d
