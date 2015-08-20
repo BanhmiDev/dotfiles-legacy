@@ -2,6 +2,10 @@ dotfiles
 ========
 
 ## Installation
+### Cloning
+Recursively clone this repository (needed for emacs configurations).                  
+`$ git clone --recursive https://github.com/gimu/dotfiles.git`
+
 ### Requirements
 [Stow](https://www.gnu.org/software/stow/manual/stow.html) should be available via your package manager.
 
