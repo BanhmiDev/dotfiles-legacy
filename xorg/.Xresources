@@ -53,11 +53,3 @@ URxvt*shading: 60
 
 URxvt*font: xft:Inconsolata:size=10
 URxvt*boldFont: xft:Inconsolata:size=10
-
-Xft*autohint: 0
-Xft*dpi: 96
-Xft*lcdfilter: lcddefault
-Xft*hintstyle: hintfull
-Xft*hinting: 1
-Xft*antialias: 1
-Xft*rgba: rgb
