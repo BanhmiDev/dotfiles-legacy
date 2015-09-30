@@ -1,7 +1,14 @@
 dotfiles
 ========
 
-## Installation
+## Packages
+Arch Linux and Debian related configurations can be installed by using the provided Makefile.
+```
+$ make archbuild
+$ make debianbuild
+```
+
+## Dotfiles
 ### Cloning
 Recursively clone this repository (needed for emacs configurations).                  
 `$ git clone --recursive https://github.com/gimu/dotfiles.git`
@@ -19,6 +26,5 @@ Optionally clone it [from source](https://savannah.gnu.org/git/?group=stow) and 
 Stow will create symlinks for files in the parent directory from where you executed the command. Therefore, the cloned repository should be placed in your home directory `~/dotfiles`, you will otherwise have to use the `-d` flag with the repository location.
 
 #### Examples (executed in ~/dotfiles)
-
 Installing emacs configurations: `$ stow emacs`.                     
 Uninstalling emacs configurations: `$ stow -D emacs`.
