@@ -11,19 +11,14 @@ emacs
 filezilla
 git
 htop
-jre7-openjdk
-jre8-openjdk
-libreoffice-still
-python2
+liberoffice
+openjdk-7-jre
+python2.7
 python3
 vim
-virtualbox
 vlc
 wine
 zsh
 "
 LIST=$(echo $PACKAGES | tr -s '\n' ' ') # Replace newlines with spaces
-pacman -S ${LIST}
-
-echo "Updating font cache..."
-fc-cache -vf
+apt-get install ${LIST}
