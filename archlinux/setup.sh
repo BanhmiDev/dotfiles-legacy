@@ -14,6 +14,7 @@ htop
 jre7-openjdk
 jre8-openjdk
 libreoffice-still
+mpv
 python2
 python3
 vim
