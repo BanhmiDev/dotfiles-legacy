@@ -7,6 +7,7 @@ fi
 PACKAGES="
 chromium
 clipit
+dmenu
 emacs
 filezilla
 git
@@ -14,9 +15,12 @@ htop
 jre7-openjdk
 jre8-openjdk
 libreoffice-still
+livestreamer
 mpv
 python2
 python3
+qt5-base
+valgrind
 vim
 virtualbox
 vlc
