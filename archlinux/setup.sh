@@ -7,11 +7,13 @@ fi
 PACKAGES="
 chromium
 clipit
+conky
 dmenu
 emacs
 filezilla
 git
 htop
+i3-wm
 jre7-openjdk
 jre8-openjdk
 libreoffice-still

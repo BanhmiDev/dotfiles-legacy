@@ -1,0 +1,28 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  2
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+max_text_width 0
+if_up_strictness address
+override_utf8_locale no
+
+use_xft yes
+
+
+TEXT
+
+[
+  ${if_up wlp2s0}{"full_text": "NETWORK: ${wireless_essid wlp2s0} [${wireless_link_qual_perc wlp2s0}%]", "color": "\#a6a6a6"},
+  $else${if_up ppp0}{"full_text": "orange","color":"\#a6a6a6"},
+  $else${if_up enp4s0}{"full_text": "enp4s0","color":"\#a6a6a6"},
+  $else{"full_text": "NETWORK DOWN","color":"\#9C9C9C"},$endif$endif$endif
+  
+  {"full_text": "BAT: ${battery_percent BAT0}%" , "color" :
+  ${if_match ${battery_percent BAT0}<30}"\#B58900"${else}"\#799F26"${endif} } ,
+  #{"full_text": "[$battery_percent%]","color":"\#a6a6a6"},
+
+  {"full_text": "${time %d.%m.%Y %H:%M:%S}", "color": "\#a6a6a6"}
+],
