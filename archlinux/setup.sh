@@ -16,6 +16,7 @@ htop
 i3-wm
 jre7-openjdk
 jre8-openjdk
+libnotify
 libreoffice-still
 livestreamer
 mpv
