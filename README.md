@@ -1,5 +1,7 @@
-dotfiles
-========
+dotfiles-legacy
+===============
+
+This repository is not maintained anymore. Check out [this repository](https://github.com/Gimu/dotfiles) instead.
 
 ## Packages
 Arch Linux and Debian related configurations can be installed by using the provided Makefile.
